@@ -1,0 +1,20 @@
+<template>
+    <div>
+    <p>サービス紹介</p>
+<v-row 
+xs='1'>
+        <v-col
+        v-for="n in 3"
+        :key="n"
+        cols='12'
+        >
+            <v-card
+            height="400px"
+            class="rounded-xl"
+            >
+            test
+            </v-card>
+        </v-col>
+</v-row>
+</div>
+</template>

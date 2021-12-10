@@ -1,0 +1,16 @@
+<template>
+<div>
+    <p>linebotデモ</p>
+    <v-row>
+        <v-col>
+                <v-card
+                height="250px"
+                class="rounded-xl"
+                >
+                <v-card-title>demo</v-card-title>
+                    img
+                </v-card>
+        </v-col>
+    </v-row>
+    </div>
+</template>
