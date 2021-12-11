@@ -15,7 +15,7 @@
                     <v-divider></v-divider>
                 <v-card-subtitle>URL</v-card-subtitle>
                 <v-card-text>
-                    <a href="https://lin.ee/tdmSz8a" target="_blank" rel="noopener noreferrer">LINE友だち登録</a>
+                    <a href="https://lin.ee/tdmSz8a"><img src="https://scdn.line-apps.com/n/line_add_friends/btn/ja.png" alt="友だち追加" height="36" border="0"></a>
                 </v-card-text>
                 </v-card>
         </v-col>
