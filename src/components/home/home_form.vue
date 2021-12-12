@@ -15,6 +15,8 @@
                     </v-text-field>
                     <v-text-field>
                     </v-text-field>
+                    <v-text-area>
+                    </v-text-area>
                 </v-form>
             </v-card>
         </v-col>
