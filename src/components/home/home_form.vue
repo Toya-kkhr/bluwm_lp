@@ -7,7 +7,7 @@
             class="rounded-xl pa-6"
             >
            <a href="https://lin.ee/eMiWgX2"><img src="https://scdn.line-apps.com/n/line_add_friends/btn/ja.png" alt="友だち追加" width="40%" border="0"></a>
-           <p>※こちらはお問合せ専用<br>「公式ライン」です。</p>
+           <v-card-text>※こちらはお問合せ専用<br>「公式ライン」です。</v-card-text>
 
                 <v-divider class="ma-5"></v-divider>
                 <v-form>
