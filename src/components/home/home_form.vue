@@ -1,6 +1,6 @@
 <template>
 <div>
-    <p>お問合せ</p>
+    <h2>お問合せ</h2>
     <v-row>
         <v-col>
             <v-card

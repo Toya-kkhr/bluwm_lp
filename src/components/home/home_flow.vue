@@ -1,6 +1,6 @@
 <template>
      <div>
-        <p>作成の流れ</p>
+        <h2>作成の流れ</h2>
     <v-carousel
     v-model="model"
     cycle
@@ -14,6 +14,7 @@
         :color="color"
         height="100%"
         tile
+        class="rounded-xl"
       >
         <v-row
           class="fill-height"

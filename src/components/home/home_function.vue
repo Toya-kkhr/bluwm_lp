@@ -1,6 +1,6 @@
 <template>
 <div>
-<p>機能一覧</p>
+<h2>機能一覧</h2>
 
 <v-row 
 justify='center'

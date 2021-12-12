@@ -1,11 +1,19 @@
 <template>
-     <v-parallax src="https://cdn.vuetifyjs.com/images/backgrounds/vbanner.jpg" class="sm">
+     <v-parallax src="@/assets/background.jpg">
  <v-row
-    align-content="center"
+    align="center"
+    justify='center'
     >
-    <v-col>
+    <v-col
+    cols='6'
+
+    >
         <div>
-            <strong>オンラインアイテムで結婚式を豊かに</strong>
+            <v-card
+            class="rounded-xl"
+            >
+                <h1>オンラインアイテムで結婚式を豊かに</h1>
+            </v-card>
         </div>
     </v-col>
  </v-row>
