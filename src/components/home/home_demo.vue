@@ -1,6 +1,7 @@
 <template>
 <div>
-    <h2>linebotデモ</h2>
+    <h2>招待状LINEbot(サンプル)</h2>
+    <h4>スマホのLINEアプリでチェック！</h4>
     <v-row>
         <v-col>
                 <v-card

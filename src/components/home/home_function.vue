@@ -6,13 +6,13 @@
 justify='center'
 >
     <v-col
-    v-for="n in 8"
+    v-for="n in 6"
     :key="n"
     cols=6
     >
         <v-card
         class="rounded-xl pa-7"
-        height="250px"
+        height="200px"
         >
             機能詳細
         </v-card>
