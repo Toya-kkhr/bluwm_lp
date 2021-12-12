@@ -1,5 +1,5 @@
 <template>
-     <v-parallax src="@/assets/background2.jpg">
+     <v-parallax src="https://cdn.vuetifyjs.com/images/backgrounds/vbanner.jpg" >
  <v-row
     align="center"
     justify='center'
