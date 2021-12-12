@@ -9,6 +9,7 @@
     <v-carousel-item
       v-for="(color, i) in colors"
       :key="color"
+      class="rounded-xl"
     >
       <v-sheet
         :color="color"
