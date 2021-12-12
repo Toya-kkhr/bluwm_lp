@@ -4,7 +4,6 @@
     <v-carousel
     v-model="model"
     cycle
-    class="rounded-xl"
     >
     <v-carousel-item
       v-for="(color, i) in colors"
@@ -13,7 +12,7 @@
       <v-sheet
         :color="color"
         height="100%"
-        
+        tile
       >
         <v-row
           class="fill-height"
