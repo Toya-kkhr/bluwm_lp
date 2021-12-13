@@ -26,6 +26,7 @@ xs='1'>
             width="200px"
             height="200px"
             class="rounded-circle ma-3"
+            style="object-fit:cover;"
             />
             <h3>
             {{contents.title}}  

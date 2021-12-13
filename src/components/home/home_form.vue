@@ -11,7 +11,7 @@
 
                 <v-divider class="ma-5"></v-divider>
                 <v-form>
-                    <v-card-subtitle>メールで相談</v-card-subtitle>
+                    <h3>e-mail</h3>
                     <v-text-field
                     label="お名前"
                     >

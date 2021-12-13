@@ -2,25 +2,25 @@
      <div>
         <h2>作成の流れ</h2>
     <v-carousel
-    v-model="model"
     cycle
     >
     <v-carousel-item
-      v-for="(color, i) in colors"
-      :key="color"
+      v-for="(slide, i) in slide"
+      :key="slide"
     >
       <v-sheet
-        :color="color"
+        :color="slide.a"
         height="100%"
         tile
       >
         <v-row
           class="fill-height"
-          align="center"
-          justify="center"
         >
-          <div class="text-h2">
-            Slide {{ i + 1 }}
+          <div 
+          class="text-h2 ma-7"
+          >
+           <p style="color:white;"
+           >Step{{ i + 1 }}</p>
           </div>
         </v-row>
       </v-sheet>
@@ -34,15 +34,14 @@
 
     components: {
     },
-    data: () => ({
-      model: 0,
-      colors: [
-        'primary',
-        'secondary',
-        'yellow darken-2',
-        'red',
-        'orange',
-      ],
-    }),
+    data() {
+        return {
+            slide: [
+                {a: 'brown'},
+                {a: 'brown'},
+                {a: 'brown'},
+            ]
+        }
+    }
   }
 </script>
