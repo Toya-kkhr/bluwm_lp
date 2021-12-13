@@ -37,7 +37,7 @@ export default {
         return {
             item: [
                 {title: '動画メッセージを送信'},
-                {title: '自動Q$A'},
+                {title: '自動Q&A'},
                 {title: 'オリジナルラインスタンプの作成'},
                 {title: '結婚式前のリマインド'},
                 {title: 'ご祝儀オンライン決済'},
