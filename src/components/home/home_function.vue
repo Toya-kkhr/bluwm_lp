@@ -18,8 +18,8 @@ justify='center'
         <div>
         <v-img
         :src= "require('@/assets/sample.png')"
-        class="ma-4"
-        width="100px"
+        class="ma-5"
+        width="70px"
         />
             <h4>
                 {{i.title}}
