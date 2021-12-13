@@ -1,6 +1,6 @@
 <template>
      <!-- <v-parallax src="https://cdn.vuetifyjs.com/images/backgrounds/vbanner.jpg" > -->
-     <v-parallax :src= "require('@/assets/background3.jpg')">
+     <v-parallax :src= "require('@/assets/background.jpg')" height="600">
  <v-row
     align="center"
     justify='center'

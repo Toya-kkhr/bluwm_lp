@@ -16,6 +16,7 @@ xs='1'>
         v-for="contents in contents"
             :key="contents"
         cols='12'
+        lg='4'
         >
             <v-card
             height="auto"
