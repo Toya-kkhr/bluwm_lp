@@ -1,15 +1,19 @@
 <template>
 <v-app 
-align="center"
+style="background:#c5eff7;"
 >
 <home_hero/>
 <v-main
-style="background:lightblue;"
+class="mt-7"
+>
+<v-row
+align='center'
+justify='center'
 >
     <v-col
-    md='7'
+    md='8'
     >
-<v-container>
+<v-container align='center'>
 <home_contents/>
 </v-container>
 
@@ -29,6 +33,7 @@ style="background:lightblue;"
     <home_form/>
 </v-container>
 </v-col>
+</v-row>
 </v-main>
 
  </v-app>

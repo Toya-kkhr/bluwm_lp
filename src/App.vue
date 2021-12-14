@@ -1,9 +1,7 @@
 <template>
-  <v-app>
+  <v-app align='center' >
     <v-app-bar
-      app
-      color="primary lighten-1"
-      dark
+      color="#c5eff7"
     >
       <div class="d-flex align-center">
         <strong>Bluwm</strong>
@@ -12,20 +10,17 @@
       <v-spacer></v-spacer>
       <v-app-bar-nav-icon></v-app-bar-nav-icon>
     </v-app-bar>
-
-   
-
     <v-main>
       <home/>
     </v-main>
 
      <v-footer
-     color="primary lighten-1"
-    padless>
+     color="#c5eff7"
+    padless
+    >
         <v-col
-        dark
         color="primary lighten-1"
-        class=" text-center white--text"
+        class=" text-center"
         cols="12">
           {{ new Date().getFullYear() }} — <strong>Bluwm</strong>
         </v-col>

@@ -1,16 +1,16 @@
 <template>
-     <!-- <v-parallax src="https://cdn.vuetifyjs.com/images/backgrounds/vbanner.jpg" > -->
-     <v-parallax :src= "require('@/assets/background.jpg')" height="600">
- <v-row
-    align="center"
-    justify='center'
+<v-parallax
+:src="require('@/assets/hero.jpg')"
+>
+    <v-row
+    align='center'
     >
-    <v-col
-
-    >
+        <v-col>
+            <div style="color:#424242;" class="pa-8">
         <h1>Bluwm</h1>
         <h3>「オンラインペーパーアイテム」<br>という選択をあなたに</h3>
-    </v-col>
- </v-row>
-     </v-parallax>
+        </div>
+        </v-col>
+        </v-row>
+        </v-parallax>
 </template>
